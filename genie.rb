@@ -10,13 +10,29 @@ class Genie
 	
 	def initialize (name, age)
 		#Instance Variables
+			#Adding enter_lamp And exit_lamp
 	@name = name
 	@age = age
+	@enter_lamp = enter_lamp
+	@exit_lamp = exit_lamp
+end
+
+#exit_lamp
+def exit_lamp
+	puts "#{name} is here to grant you three wishes."
+end
+
+#enter_lamp
+def enter_lamp
+	puts "I have granted your three wishes. I am #{age}, and, thus, very tired. Goodbye."
 end
 
 #Driver Code
 	#Creating My Genie To Initialize Method With Name And Age
 		#Should Be Updated To Reflect Updates To The Class
+			#Also The Addition of enter_lamp And exit_lamp
+genie.exit_lamp ("name")
+genie.enter_lamp ("age")
 genie = Genie.new("name", "age")
 genie = []
 genie << Genie.new("Dee", "Immortal")
