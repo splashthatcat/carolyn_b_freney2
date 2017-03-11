@@ -6,7 +6,7 @@ class Genie
 			#So We Can Access The Age (But Not Change It)
 			#And Access AND Change The Name
 	attr_accessor : name
-	attr_reader :age
+	attr_reader : age
 	
 	def initialize (name, age)
 		#Instance Variables
@@ -83,6 +83,3 @@ wishes = {
 WISHES.each do |wish|
 	obj = Genie.new(wish)
 	obj.grant_wish
-
-#No Time Left To Write RSpec Tests
-#I Will Review The Section On Them, However, I Promise
