@@ -46,6 +46,12 @@ def display_wish_history
 	print "Here are your #{submitted_wishes}:"
 end
 
+#favorite_wish
+	#Looks At Submitted Wishes And Prints Favorite
+def favorite_wish
+	prints "All these wishes are my favorite, and, so, here's a list #{submitted_wishes}:"
+end
+
 #enter_lamp
 def enter_lamp
 	puts "I am #{age}, and, thus, very tired. Goodbye."
@@ -77,3 +83,6 @@ wishes = {
 WISHES.each do |wish|
 	obj = Genie.new(wish)
 	obj.grant_wish
+
+#No Time Left To Write RSpec Tests
+#I Will Review The Section On Them, However, I Promise
