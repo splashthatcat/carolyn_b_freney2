@@ -28,6 +28,7 @@ end
 private
 def submitted_wishes
 	puts "What's your three wishes?"
+	answer = gets.chomp
 end
 
 #grant_wish
@@ -37,6 +38,12 @@ def grant_wish (submitted_wishes)
 		print "Your wish of #{submitted_wishes} hase been granted!"
 	else @submitted_wishes == true
 		print "Sorry, I've already granted three wishes today!"
+end
+
+#display_wish_history
+	#Just Needs To Print The Data In A Nice Way
+def display_wish_history
+	print "Here are your #{submitted_wishes}:"
 end
 
 #enter_lamp
