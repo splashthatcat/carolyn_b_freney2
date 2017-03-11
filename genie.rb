@@ -27,6 +27,14 @@ def enter_lamp
 	puts "I have granted your three wishes. I am #{age}, and, thus, very tired. Goodbye."
 end
 
+#submitted_wishes
+	#Where We Will Record Our Wishes
+		#Should Not Be Accessible From Outside The Class Definition 
+def submitted_wishes
+	puts "What's your three wishes?"
+end
+end
+
 #Driver Code
 	#Creating My Genie To Initialize Method With Name And Age
 		#Should Be Updated To Reflect Updates To The Class
